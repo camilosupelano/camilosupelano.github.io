@@ -4,7 +4,7 @@
  * Output: The scripture
  */
 
-function addName() {
+function addname() {
 
     let name = document.getElementById('nameInputBox').value;
 	//
