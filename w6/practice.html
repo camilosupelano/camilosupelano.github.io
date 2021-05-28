@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<link href="css/style.css" rel="stylesheet" type="text/css">
+
+<script>
+	function ticketPrice() {
+		var age = parseInt(document.getElementById('age').value);
+		var gamesAttended = parseInt(document.getElementById('games').value);
+
+		var price;
+		if (age < 18) {
+			if (gamesAttended < 6)
+				price = 8.0;
+			else if (gamesAttended < 11)
+				price = 6.0;
+			else
+				price = 5.0;
+		}
+		else if (age < 55) {
+			if (gamesAttended < 11)
+				price = 10.0;
+			else
+				price = 8.0;
+		}
+		else {
+			if (gamesAttended < 11)
+				price = 8.0;
+			else
+				price = 6.0;
+		}
+
+		document.getElementById('price').innerHTML = price;
+	}
+
+</script>
+
+<header>
+	<h1>Week 3: Add Two Numbers</h1>
+	<h2>Camilo Supelano</h2>
+</header>
+<main>
+	<h3>Add Two Numbers</h3>
+	<label>age: <input type="text" id="age"></label>
+	<label>games: <input type="games" id="games"></label>
+	<label><button onclick="ticketPrice()">price</button></label>
+	<hr>
+	<p><span id="price"></span></p>
+
+	
+
+
+</main>
+<footer>
+	&copy;2021 &bull; Camilo Supelano &bull; BYU-Idaho &bull; CIT 160
+</footer>
+
+</html>
