@@ -3,8 +3,8 @@
 
 			// INPUT: the weather selection
 
-			let weather = (document.getElementById("selection").value);
-			let message = weather;
+			let weather = document.getElementById("selection").value;
+			let message = "";
 
 
 
@@ -12,23 +12,23 @@
 				It will identify the footware according to the weather
 			*/
 
-			switch (message) {
+			switch (weather) {
 				case 'hot':
-					"Sandals";
+					message="Sandals";
 					break;
 				case 'rain':
-					"galoshes";
+					message="galoshes";
 					break;
 				case 'snow':
-					"boots";
+					message="boots";
 					break;
 				default:
-					"shoes";
+					message="shoes";
 			}
 
 
 			// OUTPUT: The footware
 
-			document.getElementById("output").innerHTML = message
+			document.getElementById("output").innerHTML = message;
 
 		}

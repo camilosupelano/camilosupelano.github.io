@@ -2,10 +2,10 @@ function checker() {
 
     // INPUT: There will be 2 input cells for numbers/ 1 for operator/ 1 answer
 
-    let number1 = (document.getElementById("number1").value);
-    let operator = (document.getElementById("operator").value);
-    let number2 = (document.getElementById("number2").value);
-    let answer = (document.getElementById("answer").value);
+    let number1 = document.getElementById("number1").value;
+    let operator = document.getElementById("operator").value;
+    let number2 = document.getElementById("number2").value;
+    let answer = document.getElementById("answer").value;
     let message = "Incorrect 😢";
     let answerkey = 0;
 
