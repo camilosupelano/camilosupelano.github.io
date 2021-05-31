@@ -2,9 +2,9 @@ function checker() {
 
     // INPUT: There will be 2 input cells for numbers/ 1 for operator/ 1 answer
 
-    let number1 = document.getElementById("number1").value;
+    let number1 = parseFloat(document.getElementById("number1").value);
     let operator = document.getElementById("operator").value;
-    let number2 = document.getElementById("number2").value;
+    let number2 = parseFloat(document.getElementById("number2").value);
     let answer = document.getElementById("answer").value;
     let message = "Incorrect 😢";
     let answerkey = 0;
@@ -16,23 +16,28 @@ function checker() {
     */
 
     switch (operator) {
-        case operator == "+":
+        case "+":
             answerkey = number1 + number2;
             break;
-        case operator == "-":
+        case "-":
             answerkey = number1 - number2;
             break;
-        case operator == "/":
+        case "/":
             answerkey = number1 / number2;
             break;
-        case operator == "*":
+        case "*":
             answerkey = number1 * number2;
             break;
         default:
-            message = "Correct! 🏆";;
-
+            message = "";
 
     }
+
+    if (answerkey == answer) {
+        message = "Correct! 🏆";
+
+    }
+        
     
 
     // OUTPUT: The Message either the result is true or false.
