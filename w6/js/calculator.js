@@ -35,7 +35,6 @@ function checker() {
 
     if (answerkey == answer) {
         message = "Correct! 🏆";
-
     }
         
     
