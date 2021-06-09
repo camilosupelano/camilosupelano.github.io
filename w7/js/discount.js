@@ -8,13 +8,13 @@
     
         let subtotal = parseFloat(document.getElementById('subtotal').value);
         let dayOfWeek = new Date().getDay();
-        let days = dayOfWeek = 2 | 3;
         let total = 0;
     
     
         //PROCESSING calculation according to conditionals
          
-        if (subtotal > 50 && days){
+
+        if (subtotal > 50 && (dayOfWeek == 2 || dayOfWeek == 3)){
             total = (subtotal + (subtotal*.06))-(subtotal + (subtotal*.06))*0.1
         } else {total = subtotal + (subtotal*.06)
     
