@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <title>test</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=divice-width, initial-scal=1" />
+    <link href="css/style.css" rel="stylesheet">
+
+    <script>
+      
+      
+      function futureValue() {
+            var output = "0";
+            var i = 2;
+            while (i <= 10) {
+                output += ", " + i;
+                i += 2;
+            }
+            document.getElementById('displayDiv').innerHTML = output;
+        }
+    </script>
+      
+</head>
+<body>
+    <header>
+        <h1>test</h1>
+        <h2>Eddie</h2>
+    </header>
+    <main>
+        <h3>test</h3>
+
+        <label>Enter Number One: <input type="text" id="integer"></label>
+
+        <label><button onclick="futureValue()">Here we go!</button></label>
+        <hr />
+        <p><span id="output"></span></p>
+    </main>
+    <footer>
+        &copy;2021 &bull; Eddie &bull; BYU-Idaho &bull; CIT 160
+    </footer>
+   
+</body>
+</html>
