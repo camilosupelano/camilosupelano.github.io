@@ -3,11 +3,20 @@ body {
 }
 header,
 footer {
-	background-color: #000;
-	color: #fff;
+	background-color: rgb(0, 0, 0);
+	color: rgb(106, 70, 204);
 	padding: 10px;
 }
-
+nav {
+	
+	color: aliceblue;
+}
+:visited{
+	color: aliceblue;
+}
+:link{
+	color: aqua;
+}
 footer {
 	font-size: 13px;
 	letter-spacing: 1.5pt;
@@ -19,7 +28,7 @@ h2 {
 }
 
 h2, #currentdate {
-	color: yellow;
+	color: rgba(56, 25, 170, 0.842);
 }
 
 main {
@@ -27,7 +36,7 @@ main {
 	border: 1px solid #999;
 	padding: 10px;
 	max-width: 500px;
-	background-color: #abe;
+	background-color: rgba(0, 0, 0, 0.89);
 	box-shadow: 0 0 30px;
 }
 
@@ -42,4 +51,3 @@ label {
 	display: block;
 	margin: 5px;
 }
-
