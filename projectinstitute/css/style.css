@@ -13,12 +13,10 @@ nav {
 	
 	color: aliceblue;
 }
-:visited{
+:visited, :link{
 	color: aliceblue;
 }
-:link{
-	color: aqua;
-}
+
 footer {
 	font-size: 13px;
 	letter-spacing: 1.5pt;
