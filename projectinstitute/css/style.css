@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Ms+Madi&display=swap');
+
 body {
 	text-align: center;
 }
 header,
 footer {
 	background-color: rgb(0, 0, 0);
-	color: rgb(106, 70, 204);
+	color: rgb(147, 196, 32);
 	padding: 10px;
 }
 nav {
@@ -28,7 +30,7 @@ h2 {
 }
 
 h2, #currentdate {
-	color: rgba(56, 25, 170, 0.842);
+	color: rgba(25, 170, 102, 0.842);
 }
 
 main {
@@ -50,4 +52,9 @@ h3 {
 label {
 	display: block;
 	margin: 5px;
+}
+
+h1{
+	font-family: 'Bangers', cursive;
+
 }
