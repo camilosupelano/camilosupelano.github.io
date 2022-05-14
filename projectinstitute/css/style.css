@@ -13,6 +13,9 @@ nav {
 	
 	color: aliceblue;
 }
+.toplinks{
+	font-size: 1.2em;
+}
 :visited, :link{
 	color: aliceblue;
 	text-decoration: none;
@@ -56,4 +59,9 @@ label {
 h1{
 	font-family: 'Bangers', cursive;
 
+}
+
+a:hover {
+    background-color: white;
+    color: rgb(9, 121, 46);
 }

@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(245, 166, 205);
+    text-align: center;
+    padding: 0px 30% 0px 30%;
+    margin: auto;
+
+    
+}
+h1, p {
+    color: white;
+    
+}
+
+img{
+    width: 30%;
+}
+
+ol{
+    text-align: left;
+}
+
+.bigtext{
+    font-size: 1.5em;
+    margin: 50px auto;
+    padding: 0 27% 0 27%;
+}
+
+footer p{
+    color: black;
+}
+
+h1:hover{
+    color: black;
+}
+
+/*
+* {
+    border: 2px solid blue;
+} 
