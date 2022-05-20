@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+    
+    margin: 0 16px;
+    border: 2px ;
+}
+
+header{
+    padding: 0;
+    margin: 0;
+    padding-bottom: 0px;
+    
+}
+#header{
+    width: 68%;
+}
+main{
+    background-color: gray;
+}
+.images{
+    width: 15%;
+    border-radius: 100px;
+    border: 10px solid rgba(0, 0, 0, 0.363);
+    margin: 15px;
+}
+footer{
+    background-color: rgb(109, 108, 108);
+    padding: 0;
+    margin: 0 16%;
+    padding-top: 0px;
+}
+/*
+* {
+    border: 2px solid blue;
+} 
+
+/*footer{
+    background-color: rgb(109, 108, 108);
+    padding: 0;
+    margin: 0 16%;
+    padding-top: 0px;
+}
