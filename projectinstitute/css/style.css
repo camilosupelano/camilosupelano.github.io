@@ -69,12 +69,20 @@ a:hover {
 	border-radius: 5px;
 }
 
+.maingrid{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
 .img{
-	float: left;
+	grid-column: 1/1;
 	padding: 1px;
-	
 	border-radius: 20px;
 	padding-top: 10px;
-	
-	
+	width: 100%;
+}
+
+
+.links{
+	grid-column: 2/2;
 }
