@@ -30,7 +30,7 @@ main section{
 
 body{
     background-color: #5265DE;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif, arial;
     font-size: 22px;
     padding: 0;
     margin: 0;
@@ -44,6 +44,7 @@ nav a:hover{
     background-color: black;
     color: white;
 }
+
 .book, .join{
     background-color: #C85CFA;
     color: black;
@@ -55,7 +56,7 @@ nav a:hover{
 }
 
 #background{
-    background-color: #7A67F5;;
+    background-color: #7A67F5;
 }
 .msg{
     background-color:#5265FE;
@@ -65,7 +66,7 @@ nav a:hover{
 
 .home-title{
     color: black;
-    font-family: 'Libre Baskerville', serif;;
+    font-family: 'Libre Baskerville', serif, arial;
     font-size: 2em;
     margin-top: 10px;
 }
@@ -84,7 +85,7 @@ h4{
 
 .msg h2{
     color: black;
-    font-family: 'Libre Baskerville', serif;;
+    font-family: 'Libre Baskerville', serif, arial;
 }
 
 .msg p{
