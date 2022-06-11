@@ -222,16 +222,19 @@ nav {
 .rivers-card{
     grid-column: 2/4;
     grid-row: 2/3;
+    width: 20%;
 }
 
 .camping-card {
     grid-column: 5/7;
     grid-row: 2/3;
+    width: 20%;
 }
 
 .rapids-card {
     grid-column: 8/10;
     grid-row: 2/3;
+    width: 20%;
 }
 
 #background {
