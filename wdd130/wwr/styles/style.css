@@ -210,7 +210,7 @@ nav {
     color: #edebfc;
 }
 
-#home-grid {
+.home-grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
 }
@@ -222,19 +222,19 @@ nav {
 .rivers-card{
     grid-column: 2/4;
     grid-row: 2/3;
-    width: 20%;
+    
 }
 
 .camping-card {
     grid-column: 5/7;
     grid-row: 2/3;
-    width: 20%;
+    
 }
 
 .rapids-card {
     grid-column: 8/10;
     grid-row: 2/3;
-    width: 20%;
+    
 }
 
 #background {
