@@ -308,3 +308,62 @@ img:hover{
         margin-top: 25px;
     }
 }
+
+/* Rivers page, let´s rock*/
+
+.rivers-title {
+    text-align: center;
+}
+/* 1st paragraph*/
+
+.rivers-article1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.river1{
+    width: 95%;
+    grid-column: 1/2;
+    grid-row: 1/5;
+    margin: auto;
+}
+
+.river1-text{
+    grid-column: 2/3;
+    grid-row: 1/5;
+}
+
+/* 2nd p */
+
+.rivers-article2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.river2{
+    width: 95%;
+    grid-column: 2/3;
+    grid-row: 1/5;
+    margin: auto;
+}
+
+.river2-text{
+    grid-column: 1/2;
+    grid-row: 1/5;
+}
+
+/* 3rd p */
+
+.rivers-article3{
+    text-align: center;
+    margin: 50px;
+    padding: 0 50px;
+}
+
+
+.river3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
