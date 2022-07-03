@@ -1,47 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Deseret Home Page</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
 
     <header>
-        <img class="deseretlogo" src="/wdd130/deseret/images/Deseret.png" alt="logo">
+        <a href="index.html"><img class="deseretlogo" src="/wdd130/deseret/images/Deseret.png" alt="logo"></a>
         <nav>
             <a href="/wdd130/deseret/index.html">Home</a>
             <a href="/wdd130/deseret/meliponicultura.html">Meliponicultura</a>
             <a href="/wdd130/deseret/productos.html">Productos</a>
+            <audio class="music" controls autoplay>
+                <source src="/wdd130/deseret/music/background.mp3" type="audio/ogg">
+                <source src="/wdd130/deseret/music/background.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
         </nav>
-        <audio controls autoplay>
-            <source src="/wdd130/deseret/music/background.mp3" type="audio/ogg">
-            <source src="/wdd130/deseret/music/background.mp3" type="audio/mpeg">
-          Your browser does not support the audio element.
-          </audio>
+
     </header>
-    
+
     <main>
-        <h1>Home page</h1>
+        <h1 class="home_h1">Home page</h1>
         <h2>Abejas Nativas Sin Aguijón</h2>
 
         <section class="">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga quis nemo accusantium facere, ad inventore repellendus omnis porro itaque quae, dolore quia, placeat in ducimus cumque esse excepturi accusamus fugiat!</p>
+            <p>“Bzzz bzz bzzzz” 🐝 Pero qué hermosa referencia ¿No crees? son sólo algunas palabras de nuestras
+                protagonistas aquí, las abejas nativas sin aguijón. Honramos su existencia y ponemos nuestra labor
+                cuidar de ellas y resaltar su existencia. Las Abejas Nativas sin Aguijón (ANSA), además de cumplir una
+                función fundamental en el proceso de restauración de flora nativa, producen miel y otras sustancias de
+                muy alta calidad.</p>
         </section>
-        <div>
-            <img src="/wdd130/deseret/images/home 1.jpg" alt="abejas">
-            <img src="/wdd130/deseret/images/home 2.jpg" alt="abejas">
+        <div class="home_mainp">
+            <img class="home_img" src="/wdd130/deseret/images/home 1.jpg" alt="abejas">
+            <img class="home_img" src="/wdd130/deseret/images/home 2.jpg" alt="abejas">
         </div>
 
         <article>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae possimus a explicabo porro iusto ex illum nulla pariatur non vel dolorem sapiente minima aspernatur numquam magni voluptates animi, est delectus consectetur quasi modi eveniet! Autem magnam facere laboriosam distinctio deleniti, culpa blanditiis perspiciatis in quod facilis animi! Nulla provident neque quaerat totam, dignissimos facilis delectus pariatur voluptas inventore odit ab ducimus enim voluptatibus quam modi debitis, nemo autem id animi optio. Excepturi autem sint quasi aliquid ducimus eaque expedita doloribus ad inventore! Earum modi animi laborum unde laboriosam enim aliquid ut quasi! Velit voluptatibus soluta odit adipisci atque iste repellat.</p>
+            <p>Opacadas por sus hermanas las Apismeliferas (abeja afro europea comúnmente usada por apicultores), las
+                ANSA han llevado por mucho tiempo la carga de un papel olvidado, ya que las apis a simple evaluación
+                tienen una producción rápida y sostenible de miel, polen y algunos otros productos. Nuestros hermanos
+                europeos trajeron estas abejas muy trabajadoras y efectivas para sacar mayor provecho del Nuevo
+                Continente, de la misma manera se suplantaron muchas cosas nativas, no con la intención de destruir sino
+                de sacar provecho y en muchos casos personas con muy buenas intenciones lo hicieron.
+            </p>
+            <p>Fueron los mismos españoles que al encontrar estas abejas tuvieron gran asombro al ver que no picaban
+                pues no tenían aguijón y les dieron el nombre de angelitas. 👼</p>
+            <p class="dato"> (Dato curioso: Algunas investigaciones revelan que sí tienen, pero se le considera aguijón atrofiado, pues
+                no puede picar, pero no lo menciones, pues puede herir sus sentimientos.😶)</p> 
         </article>
 
-        <section class="map"> <!-- made on https://google-map-generator.com/ -->
-            <div class="mapouter"><div class="gmap_canvas"><iframe width="348" height="260" id="gmap_canvas" src="https://maps.google.com/maps?q=finca%20familia%20supelano&t=k&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.whatismyip-address.com/divi-discount/">divi discount</a><br><style>.mapouter{position:relative;text-align:right;height:260px;width:348px;}</style><a href="https://www.embedgooglemap.net">embed google maps api</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:260px;width:348px;}</style></div></div>            <p>lorem</p>
-            <p>lorem</p>
-            <p>Lorem</p>
+        <section class="map">
+            <!-- made on https://google-map-generator.com/ -->
+            <div class="mapouter">
+                <div class="gmap_canvas"><iframe width="348" height="260" id="gmap_canvas"
+                        src="https://maps.google.com/maps?q=finca%20familia%20supelano&t=k&z=17&ie=UTF8&iwloc=&output=embed"
+                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                        href="https://www.whatismyip-address.com/divi-discount/">divi discount</a><br>
+                    <style>
+                        .mapouter {
+                            position: relative;
+                            text-align: right;
+                            height: 260px;
+                            width: 348px;
+                        }
+                    </style><a href="https://www.embedgooglemap.net">embed google maps api</a>
+                    <style>
+                        .gmap_canvas {
+                            overflow: hidden;
+                            background: none !important;
+                            height: 260px;
+                            width: 348px;
+                        }
+                    </style>
+                </div>
+            </div>
+            <p>Encuentra nuestro en la vereda Berlin
+                <br><br>
+                Municipio de Quiliple
+                <br><br>
+                El cielo del Tequendama
+            </p>
+
         </section>
 
     </main>
@@ -50,9 +96,10 @@
         <h3>Deseret &copy; 2022 - Camilo Supelano</h3>
         <h3><a href="/wdd130/deseret/site-plan.html">Site Plan</a></h3>
         <h3><a href="contactus.html">Contact us</a></h3>
-        
+
     </footer>
 </body>
+
 </html>
 
 </main>
